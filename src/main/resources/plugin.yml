@@ -1,0 +1,18 @@
+name: GetsugaTenshou
+version: 1.0.0
+main: com.getsuga.GetsugaTenshouPlugin
+api-version: 1.21
+description: A plugin that adds a custom sword with the Getsuga Tenshou ability
+author: YourName
+commands:
+  getsugasword:
+    description: Give yourself the Getsuga Tenshou sword
+    usage: /getsugasword
+    permission: getsuga.sword
+permissions:
+  getsuga.sword:
+    description: Allows player to get the Getsuga Tenshou sword
+    default: op
+  getsuga.use:
+    description: Allows player to use the Getsuga Tenshou ability
+    default: true
